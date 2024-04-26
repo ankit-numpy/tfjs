@@ -23,6 +23,7 @@ def main():
 
     Value=st.text_input("Value","please enter num value")
     if st.button("Predict"):
+        st.write("Hey this is extra text")
         ot=prediction(Value)
         st.success("The predicted value is:{}".format(ot))
 
